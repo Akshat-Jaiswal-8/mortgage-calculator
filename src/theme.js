@@ -1,4 +1,4 @@
-// In this we will be using dark theme of material ui
+// In this we will be using the dark theme of material ui
 
 import { createTheme } from "@mui/material/styles";
 
