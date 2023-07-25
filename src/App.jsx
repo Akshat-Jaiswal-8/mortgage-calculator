@@ -26,10 +26,10 @@ function App() {
             {/* xs={12} means that grid will now take the entire screen on extra small screen and
             md ={6} means that it will take half of the width on medium and bigger screens*/}
             <SliderSelect data={data} setData={setData} />
-            <TenureSelect />
+            <TenureSelect data={data} setData={setData} />
           </Grid>
           <Grid item xs={12} md={6}>
-            <Result />
+            <Result data={data} />
           </Grid>
         </Grid>
       </Container>
