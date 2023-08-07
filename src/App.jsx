@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
-import Navbar from "./Components/Navbar.jsx";
+import { Navbar } from "./components/Navbar.jsx";
 import Result from "./components/Result.jsx";
 import SliderSelect from "./components/SliderSelect.jsx";
 import TenureSelect from "./components/TenureSelect.jsx";
